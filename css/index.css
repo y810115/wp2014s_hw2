@@ -1,0 +1,71 @@
+body {
+color : #64645A;
+background : url(../bg/stardust/stardust.png) repeat #333333;
+font : normal normal 70% Georgia, Palatino, Times, Times New Roman, serif;
+color : #666;
+padding-bottom: 20px;
+} 
+
+#header{
+	background : url(../bg/stardust/stardust.png) repeat #999999; 
+	height:286px;
+	/*  Border Radius:http://css3generator.com/ */
+	-webkit-border-radius: 10px;
+	border-radius: 10px;}
+
+#nav{
+	padding: 2em;
+	margin:20px auto;
+	height: 330px;
+	text-indent : 2em ;
+
+/*	padding: 10px 50px;
+	width:910px;
+*/
+	background : url(../bg/tree_bark/tree_bark.png) repeat #999999;	
+	/*text-align:center;*/
+
+		/*  Border Radius:http://css3generator.com/ */
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+a{
+	font: 1.2em/1 bold;
+	display:block;
+	line-height: 3em;
+	color : #666;
+	text-decoration: none;
+}
+
+a:visited{
+	color : #666;
+}
+
+a:hover{
+	color:#db7093;
+}
+
+
+
+#article{
+	margin:20px auto;
+	padding: 2em 10em;
+
+	background : url(../bg/wild_flowers/wild_flowers.png) repeat #999999;
+	/*  Border Radius:http://css3generator.com/ */
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#aside h2{	margin-top: 2em;	color : #666; text-indent : .9em ;}
+h3{	padding:100px auto solid; text-align: center;}
+
+dt{font-size: 1.2em; font-weight: bold;}
+dd{text-indent : 3em ;}
+
+
+footer{text-align:center; color:#CCC;}

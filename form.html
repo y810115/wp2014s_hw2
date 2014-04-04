@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html dir="ltr" lang="zh-TW">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Contact Form of 楊佳瑜(101104020)</title>
+
+
+<!--960grid-->
+<link rel="stylesheet" href="960grid/css/reset.css" />
+<link rel="stylesheet" href="960grid/css/text.css" />
+<link rel="stylesheet" href="960grid/css/960.css" />
+<link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/form.css">
+
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+
+<div class="container_12" id="content">
+
+  <header class="grid_12" id="header"><img src="img/img088.jpg"></header>
+  <div class="clear"></div>
+
+
+    <div  class="grid_4" id="aside">
+     <nav id="nav"  id="aside" class="grid_4_alpha">
+      <h2><i class="fa fa-random fa-2x"></i>Links</h2>
+       <a href="index.html"> <i class="fa fa-caret-square-o-right  fa-lg"></i> Curriculum
+Vitae</a> 
+       <a href="form.html"> <i class="fa fa-caret-square-o-right  fa-lg"></i> Contact Form</a>
+    </nav> 
+    </div>
+
+
+     <div class="grid_8" id="main">
+
+
+        <form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDZ3dGNNLVFBTjR4bktTNGhQVEFfa3c6MA&amp;ifq" method="POST" id="form">
+          <h3><i class="fa fa-pagelines fa-lg"></i>Contact Form<i class="fa fa-pagelines fa-lg"></i></h3>
+          <p><input type="hidden" name="entry.0.single" value="101104020"  ></p>
+
+          <h4><i class="fa fa-share"></i> Gender</h4>
+          <ul>
+            <li>
+              <input type="radio" name="entry.1.group" value="Boy">
+              <label for="boy">boy</label>
+            </li>
+            <li>
+              <input type="radio" name="entry.1.group" value="Girl">
+              <label for="girl">girl</label>
+            </li>
+          </ul>
+          <h4><i class="fa fa-share"></i> Favorite Foods</h4>
+          <ul>
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Apple">
+              <label for="apple">Apple</label>
+            </li>
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Banana">
+               <label for="banana">Banana</label>
+            </li>
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Lemon">
+              <label for="lemon">Lemon</label>
+            </li>
+            <li>
+              <input type="checkbox" name="entry.2.group" value="Watermelon">
+              <label for="watermelon">Watermelon</label>
+            </li>
+          </ul>
+
+          <h4><i class="fa fa-share"></i> Relationship</h4>
+           <select name="entry.3.single"> 
+              <option value="single">single</option>
+              <option value="dating">dating</option>
+              <option value="married">married</option>
+              <option value="hard to explain">hard to explain</option>
+            </select>
+
+
+
+          
+        <h4><i class="fa fa-share"></i> <label for="email"> Email</label></h4>
+        <input type="text" name="entry.4.single" id="email">
+
+        <h4><label for="comment"><i class="fa fa-share"></i> Comment</label></h4>
+        <textarea name="entry.5.single" id="comment" cols="17"></textarea>
+
+         </br>
+         <input type="submit" value="提交" name="submit" onclick="sendVal()">
+        </form>
+      </div>
+  <div class="clear"></div>
+
+
+<footer id="footer" >
+    Web Design homework_2 of 101104020 哲學二 楊佳瑜
+</footer>
+
+
+</div><!--class="container_12"-->
+</body>
+</html>
